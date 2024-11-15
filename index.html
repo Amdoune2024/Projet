@@ -1,0 +1,1267 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web Aw Ka Sugu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p><span>Aw Ka Sugu </span></p>
+        </div>
+        <ul class="menu">
+            <li><a href="#product">Produits</a></li>
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#about_us">Informations du produit</li>
+            <li><a href="#reservation">Profil</a></li>
+        </ul>
+        <!-- menu responsive -->
+        <div class="product_toggles"></div>
+
+    </header>
+
+    <!-- section acceuil home -->
+
+    <section id="home">
+        <div class="left">
+            <h1>Connexion</h1>
+            <h2>Aw Ka Sugu</h2>
+            <p>Soyez le bienvenu sur notre site web Aw Ka Sugu. 
+            <br> Nous vous vendons des produits comme: Les Thés, les fruits, légumes, boissons et divers.  
+            <br> Notre Spécialité c'est de vous faire mangez des plats africains, cent pour cent préparés avec des produits frais, biologiques et une très bonne qualité à manger, bon appétit.
+             <br> <u>N.B</u>: Nous faisons des livraisons 7j/7 à un tarif abordable pour tous.
+            </p>
+            <button><a href="">Demmande de vous connectez maintenant</a></button>
+        </div>
+        <div class="right">
+            <img src="Photos/Moto.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- section menu -->
+
+    <section id="product">
+        <h4 class="mini_tittle">Produits</h4>
+        <h2 class="tittle">Les plats, thés, fruits, légumes, boissons et divers</h2>
+        <div class="dishes">
+            <div class="dish">
+                <img src="Photos/chep-jen.jpeg" alt="" width="70%" height="50%">
+                <p><h1>Chep-Jen</h1></p>
+                <p>
+                Fait à base de riz, des poissons grillés, le tout est assaisonné par des épices, de la pomme de terre accompagné par de l'eau.
+                </p>
+                <h2>3000fcfa</h2>
+                <button onclick="addToCart('Chep-Jen', 3000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/fufu.jfif" alt="" width="70%" height="50%">
+                <p><h1>Fufu sauce nigerienne</h1></p>
+                <p>Fait à base d'épices, de légumes, viandes de poulet et deux pains de pharines.</p>
+                <h2>3000fcfa</h2>
+                <button onclick="addToCart('Fufu sauce nigerienne', 3000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Achiéké plat ivoirien.jfif" alt="" width="70%" height="60%">
+                <p><h1>Achiéké</h1></p>
+                <p>Fait à base d'épices, de légumes et poissons.</p>
+                <h2>3000fcfa</h2>
+                <button onclick="addToCart('Achiéké', 3000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sauce gombo.jfif" alt="" width="70%" height="60%">
+                <p><h1>Sauce gombo</h1></p>
+                <p>Fait à base d'épices, de légumes, viandes de poulet.</p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Sauce gombo', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sauce graine plat ivoirien.jfif" alt="" width="70%" height="60%">
+                <p><h1>Sauce graine</h1></p>
+                <p>Fait à base d'épices, de légumes et viandes.</p>
+                <h2>3000fcfa</h2>
+                <button onclick="addToCart('Sauce graine', 3000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sauce feuille.jfif" alt="" width="85%" height="70%">
+                <p><h1>Sauce feuille</h1></p>
+                <p>Fait à base d'épices, de légumes et viandes.</p>
+                <h2>3000fcfa</h2>
+                <button onclick="addToCart('Sauce feuille', 3000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Achiéké plat ivoirien.jfif" alt="" width="70%" height="50%">
+                <p><h1>Achiéké</h1></p>
+                <p>Fait à base d'épices, de légumes et poissons.</p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Achiéké', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/Couscous.jfif" alt="" width="70%" height="60%">
+                <p><h1>Couscous</h1></p>
+                <p>Fait à base d'épices, de légumes, viandes de poulet.</p>
+                <h2>3000fcfa</h2>
+                <button onclick="addToCart('Couscous', 3000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/woujila.jpg" alt="" width="70%" height="50%">
+                <p><h1>Woujila sauce-malienne</h1></p>
+                <p>Fait à base d'épices, de légumes, viandes de poulet.</p>
+                <h2>3000fcfa</h2>
+                <button onclick="addToCart('Woujila sauce-malienne', 3000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/fataya.jfif" alt="" width="70%" height="50%">
+                <p><h1>Fataya</h1></p>
+                <p>Fait à base d'épices, de légumes, viandes de poulet haché.</p>
+                <h2>300fcfa</h2>
+                <button onclick="addToCart('Fataya', 300)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/pizza.jpeg" alt="" width="70%" height="50%">
+                <p><h1>Pizza XL</h1></p>
+                <p>
+                Fait à base de fromage, des légumes, des épices, craimes frais, bien assaisonné,
+                <br>accompagné de deux ketch-up.
+                </p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Pizza XL', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/yassa.jpeg" alt="" width="70%" height="50%">
+                <p><h1>Yassa</h1></p>
+                <p>Préparé avec des oignons, de la chaire du poulet, des épices, des légumes.</p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Yassa', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/poisson.jpeg" alt="" width="80%" height="70%">
+                <p><h1>Poissons</h1></p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Poissons', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Soupe de boeufs.jfif" alt="" width="80%" height="60%">
+                <p><h1>Soupe de boeufs</h1></p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Soupe de boeufs', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Alloco.jfif" alt="" width="80%" height="70%">
+                <p><h1>Alloco</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Alloco', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Poisson braisé.jfif" alt="" width="80%" height="60%">
+                <p><h1>Poisson braisé</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Poisson braisé', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sauce au boeuf.jfif" alt="" width="80%" height="70%">
+                <p><h1>Sauce au boeuf</h1></p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Sauce au boeuf', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Soupe vegetale.jfif" alt="" width="80%" height="60%">
+                <p><h1>Soupe vegetale</h1></p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Soupe vegetale', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Poisson grillé.jfif" alt="" width="80%" height="70%">
+                <p><h1>Poissons grillés</h1></p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Poissons grillés', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Salade de crevettes.jfif" alt="" width="80%" height="70%">
+                <p><h1>Salade aux crevettes</h1></p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Salade aux crevettes', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/poulet.jpg" alt="" width="60%" height="60%">
+                <p><h1>Poulet</h1></p>
+                <p>Poulet bien assaisonné à la grillade.</p>
+                <h2>5000fcfa</h2>
+                <button onclick="addToCart('Poulet', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/-fakoye-sauce-malienne.jpg" alt="" width="90%" height="80%">
+                <p><h1>Fakoye-sauce-malienne</h1></p>
+                <p>Avec des épices, legumes et viandes. </p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Fakoye-sauce-malienne', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Mafe.jfif" alt="" width="70%" height="60%">
+                <p><h1>Mafé-sauce-sénégalaise</h1></p>
+                <p>Avec des épices, legumes et poissons fumés. </p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Mafé-sauce-sénégalaise', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/hamburger.jpeg" alt="" width="60%" height="70%">
+                <p><h1>Hamburger</h1></p>
+                <p>Contient de la viande de boeuf, de la salade, du fromage ,et du french fries.</p>
+                <h2>2550fcfa</h2>
+                <button onclick="addToCart('Hamburger', 2550)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/sandwich.png" alt="" width="80%" height="80%">
+                <p><h1>Sandwich</h1></p>
+                <p>Bien assaisonné, contient des legumes, et saucices.</p>
+                <h2>3600fcfa</h2>
+                <button onclick="addToCart('Sandwich', 3600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Spaghetti Pasta.jfif" alt="" width="70%" height="70%">
+                <p><h1>Spaghetti Pasta</h1></p>
+                <h2>1500fcfa</h2>
+                <button onclick="addToCart('Spaghetti Pasta', 1500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sardine.jfif" alt="" width="70%" height="70%">
+                <p><h1>Soupe sardine</h1></p>
+                <h2>1500fcfa</h2>
+                <button onclick="addToCart('Soupe sardine', 1500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+
+
+            <div class="dish">
+                <img src="Photos/Salades.jfif" alt="" width="70%" height="70%">
+                <p><h1>Salades</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Salades', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sucre.jfif" alt="" width="70%" height="70%">
+                <p><h1>Sucre</h1></p>
+                <h2>250fcfa</h2>
+                <button onclick="addToCart('Sucre', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Café.jfif" alt="" width="70%" height="70%">
+                <p><h1>Café</h1></p>
+                <h2>500fcfa</h2>
+                <button onclick="addToCart('Café', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Pain au chocolat.jfif" alt="" width="70%" height="70%">
+                <p><h1>Pain au chocolat</h1></p>
+                <h2>500fcfa</h2>
+                <button onclick="addToCart('Pain au chocolat', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Chocolat.jfif" alt="" width="70%" height="70%">
+                <p><h1>Chocolat</h1></p>
+                <h2>6000fcfa</h2>
+                <button onclick="addToCart('Chocolat', 6000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Café au lait.jfif" alt="" width="70%" height="70%">
+                <p><h1>Café au lait</h1></p>
+                <h2>600fcfa</h2>
+                <button onclick="addToCart('Café au lait', 600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/gateau au lait.jfif" alt="" width="70%" height="70%">
+                <p><h1>Gateau au lait</h1></p>
+                <h2>600fcfa</h2>
+                <button onclick="addToCart('Gateau au lait', 600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/gateau au carrote.jfif" alt="" width="70%" height="70%">
+                <p><h1>Gateau au carrote</h1></p>
+                <h2>800fcfa</h2>
+                <button onclick="addToCart('Gateau au carrote', 800)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/gateau anniversaire.jfif" alt="" width="70%" height="70%">
+                <p><h1>Gateau anniversaire</h1></p>
+                <h2>5000fcfa</h2>
+                <button onclick="addToCart('Gateau anniversaire', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/Biscuits.jfif" alt="" width="70%" height="70%">
+                <p><h1>Biscuits</h1></p>
+                <h2>600fcfa</h2>
+                <button onclick="addToCart('Biscuits', 600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Ananas.jfif" alt="" width="70%" height="70%">
+                <p><h1>Ananas</h1></p>
+                <h2>3600fcfa par unité</h2>
+                <button onclick="addToCart('Ananas', 3600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Banane.jfif" alt="" width="70%" height="70%">
+                <p><h1>Bananes</h1></p>
+                <h2>150fcfa par unité.</h2>
+                <button onclick="addToCart('Bananes', 150)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Grenades.jfif" alt="" width="70%" height="70%">
+                <p><h1>Grenades</h1></p>
+                <h2>500fcfa par unité.</h2>
+                <button onclick="addToCart('Grenades', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/orange.jfif" alt="" width="70%" height="70%">
+                <p><h1>Orange</h1></p>
+                <h2>250fcfa par unité.</h2>
+                <button onclick="addToCart('Orange', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Coco.jfif" alt="" width="70%" height="70%">
+                <p><h1>Coco</h1></p>
+                <h2>500fcfa par unité.</h2>
+                <button onclick="addToCart('Coco', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+
+            <div class="dish">
+                <img src="Photos/Mangue.jfif" alt="" width="70%" height="70%">
+                <p><h1>Mangue</h1></p>
+                <h2>200fcfa par unité.</h2>
+                <button onclick="addToCart('Mangue', 200)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Pasteque.jfif" alt="" width="70%" height="70%">
+                <p><h1>Pastèques</h1></p>
+                <h2>250fcfa par unité.</h2>
+                <button onclick="addToCart('Pastèques', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Fraise.jfif" alt="" width="70%" height="70%">
+                <p><h1>Fraise</h1></p>
+                <h2>2500fcfa le 1kg</h2>
+                <button onclick="addToCart('Fraise', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Pommes.jfif" alt="" width="70%" height="70%">
+                <p><h1>Pommes</h1></p>
+                <h2>2500fcfa le 1kg</h2>
+                <button onclick="addToCart('Pommes', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Papaye.jfif" alt="" width="70%" height="70%">
+                <p><h1>Papayes</h1></p>
+                <h2>2500fcfa le 1kg</h2>
+                <button onclick="addToCart('Papayes', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/abricot.jfif" alt="" width="70%" height="70%">
+                <p><h1>Abricot</h1></p>
+                <h2>2000fcfa le 1kg</h2>
+                <button onclick="addToCart('Abricot', 2000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/macaroni.jfif" alt="" width="70%" height="70%">
+                <p><h1>Macaroni</h1></p>
+                <h2>2000fcfa le 1kg</h2>
+                <button onclick="addToCart('Macaroni', 2000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Raisins.jfif" alt="" width="70%" height="70%">
+                <p><h1>Raisins</h1></p>
+                <h2>2500fcfa le 1kg</h2>
+                <button onclick="addToCart('Raisins', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Tomates.jfif" alt="" width="70%" height="70%">
+                <p><h1>Tomates</h1></p>
+                <h2>200fcfa par unité.</h2>
+                <button onclick="addToCart('Tomates', 200)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sac de riz 900g.jpg" alt="" width="70%" height="70%">
+                <p><h1>Sac de riz</h1></p>
+                <h2>4500fcfa</h2>
+                <button onclick="addToCart('Sac de riz', 4500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sac oignon.jfif" alt="" width="70%" height="70%">
+                <p><h1>Sac oignons</h1></p>
+                <h2>7500fcfa</h2>
+                <button onclick="addToCart('Sac oignons', 7500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sac de tomate.webp" alt="" width="70%" height="70%">
+                <p><h1>Sac de tomates</h1></p>
+                <h2>7500fcfa</h2>
+                <button onclick="addToCart('Sac de tomates', 7500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sac de couscous.jfif" alt="" width="70%" height="70%">
+                <p><h1>Sac de couscous</h1></p>
+                <h2>6000fcfa</h2>
+                <button onclick="addToCart('Sac de couscous', 6000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Viande de boeufs.jfif" alt="" width="70%" height="70%">
+                <p><h1>Viande de boeufs</h1></p>
+                <h2>5000fcfa le 1kg</h2>
+                <button onclick="addToCart('Viande de boeufs', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Curcurma.jfif" alt="" width="70%" height="70%">
+                <p><h1>Curcurma</h1></p>
+                <h2>5000fcfa le 1/5kg</h2>
+                <button onclick="addToCart('Curcurma', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Laitus.jfif" alt="" width="70%" height="70%">
+                <p><h1>Laitus</h1></p>
+                <h2>300fcfa par unité</h2>
+                <button onclick="addToCart('Laitus', 300)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Huile d'olive.jfif" alt="" width="70%" height="70%">
+                <p><h1>Huile d'olive</h1></p>
+                <h2>5000fcfa</h2>
+                <button onclick="addToCart('Huile d olive', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Huile de mais.jfif" alt="" width="70%" height="70%">
+                <p><h1>Huile de maïs</h1></p>
+                <h2>5000fcfa</h2>
+                <button onclick="addToCart('Huile de maïs', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Huile de coco.jfif" alt="" width="70%" height="70%">
+                <p><h1>Huile de coco</h1></p>
+                <h2>5000fcfa</h2>
+                <button onclick="addToCart('Huile de coco', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/epices.jfif" alt="" width="70%" height="70%">
+                <p><h1>épices</h1></p>
+                <h2>450fcfa par le 1kg</h2>
+                <button onclick="addToCart('épices', 450)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Eau grande bouteille.jfif" alt="" width="70%" height="70%">
+                <p><h1>Eau grande bouteille</h1></p>
+                <h2>1500fcfa</h2>
+                <button onclick="addToCart('Eau grande bouteille', 1500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/piments rouges.jfif" alt="" width="70%" height="70%">
+                <p><h1>Piments rouges</h1></p>
+                <h2>200fcfa par unité.</h2>
+                <button onclick="addToCart('Piments rouges', 200)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/piments verts.jfif" alt="" width="70%" height="70%">
+                <p><h1>Piments verts</h1></p>
+                <h2>200fcfa par unité.</h2>
+                <button onclick="addToCart('Piments verts', 200)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/gingembre.jfif" alt="" width="70%" height="70%">
+                <p><h1>gingembres</h1></p>
+                <h2>200fcfa par unité.</h2>
+                <button onclick="addToCart('gingembres', 200)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Concombre.jfif" alt="" width="70%" height="70%">
+                <p><h1>Concombres</h1></p>
+                <h2>250fcfa par unité.</h2>
+                <button onclick="addToCart('Concombres', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/gombo.jpg" alt="" width="70%" height="70%">
+                <p><h1>Gombo</h1></p>
+                <h2>50fcfa par unité.</h2>
+                <button onclick="addToCart('Gombo', 50)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/Patate douce.jfif" alt="" width="70%" height="70%">
+                <p><h1>Patate douce</h1></p>
+                <h2>100fcfa par unité.</h2>
+                <button onclick="addToCart('Patate douce', 100)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/brocoli.jfif" alt="" width="70%" height="70%">
+                <p><h1>Broccoli</h1></p>
+                <h2>500fcfa par unité.</h2>
+                <button onclick="addToCart('Broccoli', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Le mil céréal.jpg" alt="" width="70%" height="70%">
+                <p><h1>Le mil</h1></p>
+                <h2>700fcfa par le 1kg.</h2>
+                <button onclick="addToCart('Le mil', 700)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Maïs légume.jpg" alt="" width="70%" height="60%">
+                <p><h1>Le maïs légume</h1></p>
+                <h2>700fcfa par le 1kg.</h2>
+                <button onclick="addToCart('Le maïs légume', 700)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sorgho céréal.jpg" alt="" width="70%" height="60%">
+                <p><h1>Le Sorgho</h1></p>
+                <h2>700fcfa par le 1kg.</h2>
+                <button onclick="addToCart('Le Sorgho', 700)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/cacao.jpg" alt="" width="70%" height="60%">
+                <p><h1>Cacao</h1></p>
+                <h2>5000fcfa par le 1kg.</h2>
+                <button onclick="addToCart('Cacao', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Soja céréal.jpg" alt="" width="70%" height="60%">
+                <p><h1>Le Soja</h1></p>
+                <h2>700fcfa par le 1kg.</h2>
+                <button onclick="addToCart('Le Soja', 700)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/oignons.jfif" alt="" width="70%" height="70%">
+                <p><h1>Oignons</h1></p>
+                <h2>250fcfa par unité.</h2>
+                <button onclick="addToCart('Oignons', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Choux pommes.jfif" alt="" width="70%" height="70%">
+                <p><h1>Choux pommes</h1></p>
+                <h2>350fcfa par unité.</h2>
+                <button onclick="addToCart('Choux pommes', 350)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Aubergine.jfif" alt="" width="70%" height="70%">
+                <p><h1>Aubergines</h1></p>
+                <h2>350fcfa par unité.</h2>
+                <button onclick="addToCart('Aubergine', 350)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/L' ail.jfif" alt="" width="70%" height="70%">
+                <p><h1>L'ail</h1></p>
+                <h2>250fcfa par unité.</h2>
+                <button onclick="addToCart('L ail', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Huile.jfif" alt="" width="70%" height="70%">
+                <p><h1>Huile 1/5Litre</h1></p>
+                <h2>750fcfa par unité.</h2>
+                <button onclick="addToCart('Huile 1/5Litre', 750)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Beurre de vache.jpg" alt="" width="70%" height="70%">
+                <p><h1>Beurre de vache</h1></p>
+                <h2>100fcfa</h2>
+                <button onclick="addToCart('Beurre de vache', 100)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Beurre de Karité.jpg" alt="" width="70%" height="70%">
+                <p><h1>Beurre de karité</h1></p>
+                <h2>100fcfa</h2>
+                <button onclick="addToCart('Beurre de karité', 100)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Bouteille de lait de vache.jpg" alt="" width="70%" height="70%">
+                <p><h1>Lait frais</h1></p>
+                <h2>750fcfa par unité.</h2>
+                <button onclick="addToCart('Lait frais', 750)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Boite mayonnaise.jpg" alt="" width="70%" height="70%">
+                <p><h1>Boite mayonnaise</h1></p>
+                <h2>600fcfa</h2>
+                <button onclick="addToCart('Boite mayonnaise', 600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/Poulet frais.jfif" alt="" width="80%" height="70%">
+                <p><h1>Poulet frais</h1></p>
+                <h2>5000fcfa</h2>
+                <button onclick="addToCart('Poulet frais', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Poissons frais.jfif" alt="" width="80%" height="70%">
+                <p><h1>Poissons frais</h1></p>
+                <h2>3500fcfa</h2>
+                <button onclick="addToCart('Poissons frais', 3500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Poivre.jfif" alt="" width="70%" height="70%">
+                <p><h1>Poivre</h1></p>
+                <h2>250fcfa</h2>
+                <button onclick="addToCart('Poivre', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Céléri.jfif" alt="" width="70%" height="70%">
+                <p><h1>Céléri</h1></p>
+                <h2>250fcfa</h2>
+                <button onclick="addToCart('Céléri', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+             <div class="dish">
+                <img src="Photos/Petit poids.jfif" alt="" width="70%" height="70%">
+                <p><h1>Pétit poids</h1></p>
+                <h2>500fcfa le 1kg</h2>
+                <button onclick="addToCart('Pétit poids', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Pomme de terres.jfif" alt="" width="70%" height="70%">
+                <p><h1>Pomme de terres</h1></p>
+                <h2>500fcfa le 1kg</h2>
+                <button onclick="addToCart('Pomme de terres', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Manioc.jfif" alt="" width="70%" height="70%">
+                <p><h1>Manioc</h1></p>
+                <h2>600fcfa le 1kg</h2>
+                <button onclick="addToCart('Manioc', 600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/ignames.jfif" alt="" width="70%" height="70%">
+                <p><h1>Ignames</h1></p>
+                <h2>600fcfa le 1kg</h2>
+                <button onclick="addToCart('Ignames', 600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/fonio.jfif" alt="" width="70%" height="70%">
+                <p><h1>Fonio</h1></p>
+                <h2>800fcfa le 1kg</h2>
+                <button onclick="addToCart('Fonio', 800)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Blé.jfif" alt="" width="70%" height="70%">
+                <p><h1>Blé</h1></p>
+                <h2>800fcfa le 1kg</h2>
+                <button onclick="addToCart('Blé', 800)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Haricot vert.jfif" alt="" width="70%" height="70%">
+                <p><h1>Haricot vert</h1></p>
+                <h2>500fcfa le 1kg</h2>
+                <button onclick="addToCart('Haricot vert', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Haricots.jfif" alt="" width="70%" height="70%">
+                <p><h1>Haricots</h1></p>
+                <h2>500fcfa le 1kg</h2>
+                <button onclick="addToCart('Haricots', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Arachides.jfif" alt="" width="70%" height="70%">
+                <p><h1>Arachides</h1></p>
+                <h2>200fcfa</h2>
+                <button onclick="addToCart('Arachides', 200)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Pate d'arachide.jfif" alt="" width="70%" height="70%">
+                <p><h1>Pate d'arachide</h1></p>
+                <h2>2500fcfa la boite</h2>
+                <button onclick="addToCart('Pate d arachide', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Savons bio artisanaux.jpg" alt="" width="70%" height="70%">
+                <p><h1>Savons artisanaux</h1></p>
+                <h2>250fcfa</h2>
+                <button onclick="addToCart('Savons artisanaux', 250)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Pate d'arachide.jfif" alt="" width="70%" height="70%">
+                <p><h1>Pate d'arachide</h1></p>
+                <h2>3000fcfa la boite</h2>
+                <button onclick="addToCart('Pate d arachide', 3000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Vinaigre.jfif" alt="" width="70%" height="70%">
+                <p><h1>Vinaigre</h1></p>
+                <h2>800fcfa par unité.</h2>
+                <button onclick="addToCart('Vinaigre', 800)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Poivrons.jfif" alt="" width="70%" height="70%">
+                <p><h1>Poivrons</h1></p>
+                <h2>350fcfa par unité.</h2>
+                <button onclick="addToCart('Poivrons', 350)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Carotte.jfif" alt="" width="70%" height="70%">
+                <p><h1>Carottes</h1></p>
+                <h2>500fcfa le 1kg</h2>
+                <button onclick="addToCart('Carottes', 500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Oeufs.jfif" alt="" width="70%" height="70%">
+                <p><h1>Oeufs</h1></p>
+                <h2>175fcfa par unité.</h2>
+                <button onclick="addToCart('Oeufs', 175)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sac panier femme.jpg" alt="" width="70%" height="70%">
+                <p><h1>Sac panier femme</h1></p>
+                <h2>5000fcfa</h2>
+                <button onclick="addToCart('Sac panier femme', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sac panier femme2.jpg" alt="" width="70%" height="70%">
+                <p><h1>Sac panier femme</h1></p>
+                <h2>5000fcfa</h2>
+                <button onclick="addToCart('Sac panier femme', 5000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sachet plastique.jpg" alt="" width="70%" height="70%">
+                <p><h1>Sachet plastique</h1></p>
+                <h2>400fcfa</h2>
+                <button onclick="addToCart('Sachet plastique', 400)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Brosse à cheveux pour hommes.jpg" alt="" width="70%" height="70%">
+                <p><h1>Brosse à chéveux</h1></p>
+                <h2>400fcfa</h2>
+                <button onclick="addToCart('Brosse à chéveux', 400)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Brosse à cheveux femmes.jpg" alt="" width="70%" height="70%">
+                <p><h1>Brosse à chéveux</h1></p>
+                <h2>400fcfa</h2>
+                <button onclick="addToCart('Brosse à chéveux', 400)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sandal pour femme.jpg" alt="" width="70%" height="70%">
+                <p><h1>Sandal pour femme</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Sandal pour femme', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sandal pour homme.jpg" alt="" width="70%" height="70%">
+                <p><h1>Sandal pour homme</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Sandal pour homme', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Pate de tomate.jfif" alt="" width="70%" height="70%">
+                <p><h1>Pate de Tomate</h1></p>
+                <h2>1500fcfa</h2>
+                <button onclick="addToCart('Pate de Tomate', 1500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sachet eau.jfif" alt="" width="70%" height="70%">
+                <p><h1>Eau sachet</h1></p>
+                <h2>50fcfa</h2>
+                <button onclick="addToCart('Eau sachet', 50)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Sachet spaghetti.jfif" alt="" width="70%" height="70%">
+                <p><h1>Sachet spaghetti</h1></p>
+                <h2>800fcfa</h2>
+                <button onclick="addToCart('Sachet spaghetti', 800)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/cocacola.jpeg" alt="" width="70%" height="60%">
+                <p><h1>Coca-cola</h1></p>
+                <p>A consommer avec modération.</p>
+                <h2>800fcfa</h2>
+                <button onclick="addToCart('Coca-cola', 800)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/eau.jpeg" alt="" width="70%" height="70%">
+                <p><h1>Eau</h1></p>
+                <h2>300fcfa</h2>
+                <button onclick="addToCart('Eau', 300)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Achoura.jpg" alt="" width="70%" height="70%">
+                <p><h1>Thé Achoura</h1></p>
+                <h2>300fcfa par unité</h2>
+                <button onclick="addToCart('Thé Achoura', 300)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/fanta cannette.jpeg" alt="" width="70%" height="60%">
+                <p><h1>Fanta cannette</h1></p>
+                <p>A consommer avec modération.</p>
+                <h2>600fcfa par unité</h2>
+                <button onclick="addToCart('Fanta cannette', 600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/coca-cannette.jfif" alt="" width="70%" height="60%">
+                <p><h1>Coca-Cola cannette</h1></p>
+                <p>A consommer avec modération.</p>
+                <h2>600fcfa par unité</h2>
+                <button onclick="addToCart('Coca-Cola cannette', 600)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Jus Bissap.jpg" alt="" width="70%" height="70%">
+                <p><h1>Jus bissap</h1></p>
+                <h2>1000fcfa</h2>
+                <button onclick="addToCart('Jus bissap', 1000)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Jus d'ananas.jfif" alt="" width="70%" height="70%">
+                <p><h1>Jus Ananas</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus Ananas', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Jus de mangue.jfif" alt="" width="70%" height="70%">
+                <p><h1>Jus mangue</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus mangue', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Jus gingembre.jpg" alt="" width="70%" height="70%">
+                <p><h1>Jus gingembre</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus gingembre', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Jus Tamarin.jpg" alt="" width="70%" height="70%">
+                <p><h1>Jus Tamarin</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus Tamarin', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/jus de goyave.jfif" alt="" width="70%" height="70%">
+                <p><h1>Jus Goyave</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus Goyave', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/jus de grenade.webp" alt="" width="70%" height="70%">
+                <p><h1>Jus grenade</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus grenade', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/jus de pasteque.jfif" alt="" width="70%" height="70%">
+                <p><h1>Jus pastèque</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus pastèque', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Jus de coco.jfif" alt="" width="70%" height="70%">
+                <p><h1>Jus de coco</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus de coco', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+            <div class="dish">
+                <img src="Photos/Jus de pommes1.jfif" alt="" width="70%" height="70%">
+                <p><h1>Jus de pomme</h1></p>
+                <h2>2500fcfa</h2>
+                <button onclick="addToCart('Jus de pomme', 2500)">Ajouter au panier</button>
+                <a href="">Acheter</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- section à propos de nous -->
+
+    <section id="about_us">
+        <h4 class="mini_tittle"></h4>
+        <h2 class="tittle">Informations du produit</h2>
+        <div class="about">
+            <div class="left">
+                <img src="Photos/fruits.jpeg" alt="" width="100%" height="50%">
+            </div>
+            <div class="right">
+                <h3>Notez-Bien</h3>
+                <p>Nos chefs sont à la hauteur de leurs préparations, en plus nous vous ténons au courant de la qualité
+                    et l'hygène de nos plats, nous nous préoccupons de votre santé.</p>
+                <p>Les produits que nous utilisons, ont été choisis à la perfection, ils sont rares et de bonnes
+                    qualités.</p>
+                <button><a href="">Pour plus d'informations</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- section commentaires -->
+    <section class="comment_section">
+        <h4 class="mini_tittle"> Commentaires</h4>
+        <h2 class="tittle"> Que pensent les clients de nous?</h2>
+        <div class="comment">
+            <div class="comment">
+                <img src="Photos/inconnu femme.jfif" alt="" width="60%" height="15%">
+                <h3>Inconnu</h3>
+                <p>
+                    Parfait.
+        
+                </p>
+            </div>
+
+            <div class="comment">
+                <img src="Photos/inconnu homme.jfif" alt="" width="60%" height="15%">
+                <h3>Inconnu</h3>
+                <p>
+                    Jolie.
+                    
+                </p>
+            </div>
+
+            <div class="comment">
+                <img src="Photos/inconnu homme.jfif" alt="" width="60%" height="15%">
+                <h3>Inconnu</h3>
+                <p>
+                    Une belle initiative.
+                    
+                </p>
+            </div>
+
+            <div class="comment">
+                <img src="Photos/inconnu femme.jfif" alt="" width="60%" height="15%">
+                <h4>Inconnu</h4>
+                <p>
+                    Un bon site.
+                   
+                </p>
+            </div>
+
+            <div class="comment">
+                <img src="Photos/inconnu homme.jfif" alt="" width="60%" height="15%">
+                <h4>Inconnu</h4>
+                <p>
+                    Super.
+                    
+                </p>
+            </div>
+
+    </section>
+
+    <!-- section reservation -->
+    <section id="reservation">
+        <h4 class="mini_tittle"> Profil</h4>
+        <h2 class="tittle">Faire une Recommandation</h2>
+        <form action="">
+            <label for=""> Votre nom</label>
+            <input type="text">
+            <label for=""> Votre prénom</label>
+            <input type="text">
+            <label for=""> Votre email</label>
+            <input type="email">
+            <label for=""> Votre numéro</label>
+            <input type="text">
+            <label for=""> Date de naissance</label>
+            <input type="date">
+            <label for=""> Infos additionnels</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="services_list">
+            <div class="service">
+                <img src="Photos/clock.png.png" alt="Horloge">
+                <h2>Ouverture</h2>
+                <p>10h00</p>
+            </div>
+
+            <div class="service">
+                <img src="Photos/clock.png.png" alt="Horloge">
+                <h2>Fermeture</h2>
+                <p>00h00</p>
+            </div>
+
+            <div class="service">
+                <img src="Photos/lo.png.jpg" alt="Localisation">
+                <h2>Adresses</h2>
+                <p><a href="https://www.googlemaps.com">Click ici</a> </p>
+            </div>
+
+            <div class="service">
+                <img src="Photos/email.png" alt="Emails">
+                <h2>Emails</h2>
+                <p><a href="https://wwww.boutiquerestaurantmalisugu2025@gmail.com ">Click ici</a></p>
+            </div>
+
+            <div class="service">
+                <img src="Photos/phone.png" alt="Telephone">
+                <h2>Numéro WhatsApp</h2>
+                <h2>773072724</h2>
+            </div>
+            <hr>
+            <p class="footer_text">Mis en jour <span>Le 15-10-2024</span> Tous les droits sont réservés.</p>
+    </footer>
+
+    <script>
+        var small_menu = document.querySelector('.toggle_product')
+        small_menu.onclick = function(){
+          small_menu.clsslist.toggle('active');
+        }
+        
+        function addToCart(item, price) {
+            //Vérifier que les parametres ne sont pas vides
+            if (item && price) {
+                //code pour ajouter l'article au panier (vous pouvez ajouter du code ici)
+                console.log(item+ " ajouté au panier pour " + price + " fcfa");
+                //Affiche l'alerte pour informer que la requête est enregistrée
+                alert("Votre requête est ajoutée au panier pour " + item);
+            } else {
+                //Message d'erreur si les paramètres sont invalides
+                console.error("Erreur : Item du prix invalide.");
+            }
+        }
+        
+    </script>
+
+</body>
+
+</html>
